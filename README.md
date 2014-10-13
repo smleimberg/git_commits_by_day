@@ -3,7 +3,6 @@
 >View commit history of multiple repos ordered by date and time using "git log --pretty=format:"
 
 
-
 ##Setup:
 
 1. Copy `gcbd-settings-sample.php` to `gcbd-settings.php`:
