@@ -1,9 +1,9 @@
-#Git Commits By Day
+# Git Commits By Day
 
 >View commit history of multiple repos ordered by date and time using "git log --pretty=format:"
 
 
-##Setup:
+## Setup:
 
 1. Copy `gcbd-settings-sample.php` to `gcbd-settings.php`:
 
@@ -28,18 +28,18 @@ $folder_list=array(
 
 
 
-##Usage:
+## Usage:
 ```
  -s    since. (git --since) Ex: "3.days" "2.weeks" "2.months"
  -e    egrep. (filter by date) EX: "2014-05-20|2014-06-17" //pipe seperates dates
 ```
 
-###Without options:
+### Without options:
 ```
 php gcbd.php
 ```
 
-###Since Option (date range): 
+### Since Option (date range): 
 ```
 $ php gcbd.php -s 1.day
 --------------------------------------------------------------------------------
@@ -55,7 +55,7 @@ $ php gcbd.php -s 2.monts
 --------------------------------------------------------------------------------
 ```
 
-###Egrep Option (specific dates):
+### Egrep Option (specific dates):
 ```
 $ php gcbd.php -e "2014-05-20"
 --------------------------------------------------------------------------------
@@ -65,7 +65,7 @@ $ php gcbd.php -e "2014-05-20"
 
 
 
-##Requirements:
+## Requirements:
 > 1. git-core
 > 2. PHP
 > 3. An active git repository
